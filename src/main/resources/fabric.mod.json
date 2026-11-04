@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "chillbyyte_minimap",
+  "version": "${version}",
+  "name": "Chillbyyte Minikarte",
+  "description": "Schlichte zweite Minikarte mit Todesmarkern und Einstellungen.",
+  "authors": [
+    "Community project for Chillbyyte"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.chillbyyte.minimap.MiniMapClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
